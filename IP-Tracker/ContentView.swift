@@ -64,7 +64,7 @@ struct ContentView: View {
             return
         }
 
-        let urlString = "https://api.ipgeolocation.io/ipgeo?apiKey=0d4a6107cf254b1aab48641c5a57d67a&ip=\(ipAddress)"
+        let urlString = "https://api.ipgeolocation.io/ipgeo?apiKey=YOUR_API_KEY&ip=\(ipAddress)"
 
         guard let url = URL(string: urlString) else { return }
 
